@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.queue {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.text-message {
+  height: 18px;
+}
+
+.queue-item {
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.front {
+  background-color: #81c784;
+}
+
+.end {
+  background-color: #64b5f6;
+}
+
+.buttons {
+  margin-top: 20px;
+  position: static;
+}
